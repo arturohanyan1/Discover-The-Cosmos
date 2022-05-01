@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  color: white;
+}
+
+.boxDiv {
+  border: 1px solid white;
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+
+.navLinks {
+  padding: 10px;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: #999;
+}
+
+.navLinks a:hover {
+  color: white;
+}

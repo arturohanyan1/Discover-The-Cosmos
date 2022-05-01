@@ -1,0 +1,56 @@
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script defer src="../js/wrapper.js"></script>
+<script defer src="../js/showOne.js"></script>
+<link rel="stylesheet" href="../styles/main.css">
+
+<div class="wrapper">
+      <header class="header">
+        <nav class="header_menu menu">
+          <a href="" class="menu_link">Image</a>
+          <a href="" class="menu_link">Description</a>
+          <a href="" class="menu_link">More</a>
+        </nav>
+      </header>
+      <main class="page">
+        <div class="page_wrapper">
+          <div class="page_screen screen">
+            <div class="screen_content">
+            </div>
+            <div class="screen_body">
+              <div class="screen_image" data-swiper-parallax="33%" data-swiper-parallax-scale="1.1">
+                <img src="" id="showImgNasa">
+              </div>
+            </div>
+          </div>
+          <div class="page_screen screen">
+            <div class="screen_content">
+              <h1 id="showTitle" class="screen_title" data-swiper-parallax="50%" data-swiper-parallax-opacity="0"></h1><br>
+              <h2 id="showDay" class="screen_title" data-swiper-parallax-opacity="0" data-swiper-parallax="-100%" data-swiper-parallax-duration="1000"></h2>         
+              <div class="screen_text" data-swiper-parallax-opacity="0" data-swiper-parallax="-100%" data-swiper-parallax-duration="1000">
+                <p id="showExplanation"></p>
+                  <button id="addToAlbum" class="btn btn-outline-light">ADD TO MY ALBUM</button>
+              </div>   
+            </div>
+          </div>  
+          <div class="page_screen screen">
+            <div class="screen_content">
+              <div class="screen_text" data-swiper-parallax-opacity="0" data-swiper-parallax="-100%" data-swiper-parallax-duration="900">
+              <p><a href="/myAlbum" class="navBtn">My Album</a></p><br>
+              <p><a href="/getPhoto" class="navBtn">Get Photo</a></p><br>
+              <p><a href="/findAlbum" class="navBtn">Find Albums</a></p><br>
+              <p><a href="/about" class="navBtn">About</a></p><br>
+              <p><a href="/logout" class="navBtn">Logout</a></p><br>
+              </div>
+            </div>
+            <div class="screen_body">
+              <div class="screen_image" data-swiper-parallax="50%">
+                <img src="../images/nasalogo.jpg" alt="nasa">
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{!-- <div class="page_pagination"></div>
+        <div class="page_scroll"></div> --}}
+      </main>
+    </div>

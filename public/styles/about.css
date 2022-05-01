@@ -1,0 +1,101 @@
+*, *before, *after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  min-width: 100%;
+  overflow: hidden;
+}
+
+.page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.parallax {
+  position: relative;
+  height: 100%;
+}
+
+.parallax__space {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.parallax__space_1 {
+  background: url("../images/aboutImages/space.jpg") 0 0 / cover no-repeat;
+}
+
+.parallax__space_2 {
+  z-index: 1;
+  background: url("../images/aboutImages/earth.png") bottom right / 50% no-repeat
+}
+.parallax__space_3 {
+  z-index: 1;
+  background: url("../images/aboutImages/mks.png") left top / 20% no-repeat;
+}
+
+.parallax__fog {
+  background: url('../images/aboutImages/fog_1.png') bottom / 100% no-repeat;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.content {
+  position: relative;
+}
+
+.content__body {
+  max-width: 1170px;
+  margin: 0px auto;
+}
+
+.content__header {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding: 0px 20px;
+  color: azure;
+}
+
+.content__title {
+  font-size: 200px;
+}
+
+.content__subtitle {
+  font-size: 120px;
+}
+
+.content__article {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 50px;
+  font-size: 18px;
+  line-height: 24px;
+  border-radius: 10px;
+}
+
+.content__article p {
+  margin-bottom: 20px;
+}
